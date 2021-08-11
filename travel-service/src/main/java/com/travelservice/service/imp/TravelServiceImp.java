@@ -17,8 +17,6 @@ public class TravelServiceImp implements TravelService {
 	@Transactional
 	@Override
 	public Travel getTravelById(Long empId) {
-		// TODO Auto-generated method stub
-		System.out.println(empId);
 		return travelDao.findTravelByEmpId(empId);
 	}
 
