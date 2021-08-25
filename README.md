@@ -1,5 +1,5 @@
 # microservices-demo1
-config-server port:8071
+config-server port:8071<br />
 emp-eurekaserver port:8761
 emp-gatewayserver port:7070
 employees-service port:8081
